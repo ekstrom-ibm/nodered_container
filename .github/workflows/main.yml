@@ -28,4 +28,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/modbus_simulator:${GITHUB_SHA}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/modbus_simulator:1.01
