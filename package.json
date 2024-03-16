@@ -1,0 +1,27 @@
+{
+    "name": "node-red-docker",
+    "version": "3.1",
+    "description": "Low-code programming for event-driven applications",
+    "homepage": "http://nodered.org",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/node-red/node-red-docker.git"
+    },
+    "private": true,
+    "scripts": {
+        "start": "node $NODE_OPTIONS node_modules/node-red/red.js $FLOWS"
+    },
+    "contributors": [
+        {
+            "name": "Jan Ekstrom"
+        }
+    ],
+    "dependencies": {
+        "node-red": "3.1.x",
+        "node-red-contrib-modbus": "5.x"
+    },
+    "engines": {
+        "node": ">=20"
+    }
+}
