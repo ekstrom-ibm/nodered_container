@@ -788,7 +788,7 @@
         "id": "a498dd9f9de6d03e",
         "type": "comment",
         "z": "d3c4c3140d5ff4fc",
-        "name": "Created by Jan Ekstrøm - 2024-03-16 - v1.01 (Open to view Version History)",
+        "name": "Created by Jan Ekstrøm - 2024-04-16 - v1.01 (Open to view Version History)",
         "info": "Author: Jan Ekstrøm, jan.ekstrom@dk.ibm.com, @ekstrom\n\nv1.01 2024-03-16:\n- Added version information to make it ready for a Maximo Hands-on Lab\n\nv1.00 2024-03-15:\n- First released Version\n- Changed port 502 to 20502 as Linux had difficulties using restricted port 502\n- Cleaned up in the flow visually\n\nv0.91 2024-03-10:\n- 2 Modbus Servers (one in each flow) on Ports: 502 and 10502\n\nv0.90 2024-02-17:\n- Perlin noise added to some of the data points\n- Data points generated every 30 seconds\n- Named the function nodes so it was easy to see Holding Ragister, Scope, Default value and whether static, random, or dynamic\n\nv0.82 2024-02-09:\n- Changed the Motor Torque to generate random values within a scope\n\nv0.81 2024-02-08:\n- Added a all static Holding Registers for the Lenze i550 VFD\n\nv0.80 2024-02-07:\n- Finally found out how the Modbus Flex Server could be used to simulate a Modbus Server (Slave)\n- Added a few static Holding Registers for the Lenze i550 VFD\n- Reading the holding registers added",
         "x": 310,
         "y": 60,
