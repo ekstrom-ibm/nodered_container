@@ -33,3 +33,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/nodered_container:latest
+          NODE_RED_CREDENTIAL_SECRET: ${{ secrets.NODE_RED_CREDENTIAL_SECRET}}
