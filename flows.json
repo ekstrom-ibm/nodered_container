@@ -41,7 +41,7 @@
         "broker": "masdev.messaging.iot.inst1.apps.a2e22b676ff.ocp.techzone.ibm.com",
         "port": "443",
         "tls": "0f42b3d3d51b97d7",
-        "clientid": "d:masdev:device:device_oneX",
+        "clientid": "d:masdev:device:device_one",
         "autoConnect": true,
         "usetls": true,
         "protocolVersion": "4",
