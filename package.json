@@ -1,6 +1,6 @@
 {
     "name": "node-red-docker",
-    "version": "4",
+    "version": "4.0.x",
     "description": "Low-code programming for event-driven applications",
     "homepage": "http://nodered.org",
     "license": "Apache-2.0",
